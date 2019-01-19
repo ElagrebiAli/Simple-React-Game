@@ -4,7 +4,7 @@
   "description": "min-react-project",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server   --open --mode development ",
+    "start": "webpack-dev-server --output-public-path=/build/  --open --mode development ",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode production"
   },
@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "@babel/polyfill": "^7.2.5",
+    "lodash": "^4.17.11",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "webpack": "^4.28.4",
